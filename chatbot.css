@@ -1,32 +1,67 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background: white;
 }
+
 .row{
     
     margin: auto;
     border-style: solid;
-    height: 600px;
-    width: 1000px;
-    background-color: ;
+    border-color: aliceblue;
+    height: 630px;
+    width: 800px;
+    background-color: rgba(100, 149, 178, 0.936);
+    border-radius: 20px;
+    overflow: auto;
+   
 
 }
-.xyz{
+.input{
    height: 60px;
-   width: 300px;
-   border-radius: 12px
+   width: 500px;
+   border-radius: 12px;
+   border-color: aliceblue;
+   text-align: left ;
+   top: 600px;
+    left: 500px;
+    position: fixed;
 
 }
 #send-button{
-    height: 30px;
-   width: 50px;
+    height: 40px;
+   width: 100px;
    color:white;
    border-radius: 12px;
-   background-color: red;
+   background-color: rgb(174, 206, 10);
+   justify-content: space-between;
+   top: 609px;
+    left: 1020px;
+    position: fixed;
 }
-.clom{
-    display: flex;
-    margin-top: 450px;
-    margin-left: 350px;
+
+.uesrquestion{
+    
+    width: 50px;
+    border-radius: 12px;
+    position: absolute;
+    top: 550px;
+    left:505px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(35, 85, 35);
+}
+.response{
+  
+    width: 50px;
+    border-radius: 12px;
+    position: absolute;
+    top: 520px;
+    left:800px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(8, 70, 83);
 }
 
 
